@@ -1,0 +1,16 @@
+#main-navbar {
+	box-shadow: 2px 2px 5px $primary;
+	opacity: 0.9;
+	background-color: $white;
+
+	#navbarCollapse {
+		.navbar-nav {
+			margin-left: auto;
+
+			.nav-item {
+				font-size: 1.4rem;
+				padding-right: 1.4rem;
+			}
+		}
+	}
+}
