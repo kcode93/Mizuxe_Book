@@ -5,6 +5,12 @@
 			margin: 0 0 1rem 0;
 		}
 	}
+
+	#boxes {
+		.card {
+			margin-bottom: 1rem;
+		}
+	}
 }
 
 @include media-breakpoint-down(md) {
@@ -13,6 +19,12 @@
 
 		h1 {
 			font-size: 4rem;
+		}
+	}
+
+	#boxes {
+		.card {
+			margin-bottom: 1rem;
 		}
 	}
 }

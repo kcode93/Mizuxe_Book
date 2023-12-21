@@ -9325,15 +9325,26 @@ textarea.form-control-lg {
   display: block;
   width: 100%; }
 
+#boxes .card {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
 /** Modules **/
 /** Media queries **/
 @media (max-width: 575.98px) {
   #newsletter .form-control,
   #newsletter button {
-    margin: 0 0 1rem 0; } }
+    margin: 0 0 1rem 0; }
+  #boxes .card {
+    margin-bottom: 1rem; } }
 
 @media (max-width: 767.98px) {
   #showcase {
     min-height: 500px; }
     #showcase h1, #showcase .h1 {
-      font-size: 4rem; } }
+      font-size: 4rem; }
+  #boxes .card {
+    margin-bottom: 1rem; } }
