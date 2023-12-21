@@ -1,5 +1,13 @@
-//medium Screens
-@media (max-width: 768px) {
+@include media-breakpoint-down(sm) {
+	#newsletter {
+		.form-control,
+		button {
+			margin: 0 0 1rem 0;
+		}
+	}
+}
+
+@include media-breakpoint-down(md) {
 	#showcase {
 		min-height: 500px;
 

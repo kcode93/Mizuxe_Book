@@ -9317,9 +9317,22 @@ textarea.form-control-lg {
       font-size: 1.4rem;
       padding-right: 1.4rem; }
 
+#newsletter .form-control,
+#newsletter button {
+  margin: 1rem 0; }
+
+#newsletter button {
+  display: block;
+  width: 100%; }
+
 /** Modules **/
 /** Media queries **/
-@media (max-width: 768px) {
+@media (max-width: 575.98px) {
+  #newsletter .form-control,
+  #newsletter button {
+    margin: 0 0 1rem 0; } }
+
+@media (max-width: 767.98px) {
   #showcase {
     min-height: 500px; }
     #showcase h1, #showcase .h1 {
