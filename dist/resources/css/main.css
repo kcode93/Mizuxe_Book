@@ -9319,3 +9319,8 @@ textarea.form-control-lg {
 
 /** Modules **/
 /** Media queries **/
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1, #showcase .h1 {
+      font-size: 4rem; } }
