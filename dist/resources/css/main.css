@@ -9373,6 +9373,9 @@ textarea.form-control-lg {
   #contact form .form-control:hover {
     border: 2px solid #3292a6; }
 
+#main-footer #copy {
+  margin-left: auto; }
+
 /** Modules **/
 /** Media queries **/
 @media (max-width: 575.98px) {
