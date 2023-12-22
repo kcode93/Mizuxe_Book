@@ -9332,6 +9332,20 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: center; }
 
+#about .info-header {
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: 2px solid #3292a6; }
+
+#about .card {
+  margin-bottom: 0.5rem; }
+  #about .card .card-header {
+    background-color: #3292a6;
+    color: #fff;
+    padding: 1rem; }
+    #about .card .card-header:hover {
+      cursor: pointer; }
+
 /** Modules **/
 /** Media queries **/
 @media (max-width: 575.98px) {

@@ -18,3 +18,24 @@
 		justify-content: center;
 	}
 }
+
+#about {
+	.info-header {
+		width: 50%;
+		margin: 0 auto;
+		border-bottom: 2px solid $primary;
+	}
+
+	.card {
+		margin-bottom: 0.5rem;
+		.card-header {
+			background-color: $primary;
+			color: $white;
+			padding: 1rem;
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}
