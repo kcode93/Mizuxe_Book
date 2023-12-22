@@ -9314,8 +9314,10 @@ textarea.form-control-lg {
     margin-left: auto; }
     #main-navbar #navbarCollapse .navbar-nav .nav-item {
       font-weight: bold;
-      font-size: 1.4rem;
-      padding-right: 1.4rem; }
+      font-size: 1.3rem;
+      padding-right: 1.2rem; }
+      #main-navbar #navbarCollapse .navbar-nav .nav-item .nav-link:hover {
+        color: #3292a6; }
 
 #newsletter .form-control,
 #newsletter button {
