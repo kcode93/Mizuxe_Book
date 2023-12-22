@@ -1,4 +1,18 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
+	#showcase {
+		height: 550px;
+		text-align: center;
+
+		.display-2 {
+			font-size: 2rem;
+			font-weight: bold;
+		}
+	}
+
 	#newsletter {
 		.form-control,
 		button {

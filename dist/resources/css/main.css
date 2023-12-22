@@ -9335,6 +9335,12 @@ textarea.form-control-lg {
 /** Modules **/
 /** Media queries **/
 @media (max-width: 575.98px) {
+  #showcase {
+    height: 550px;
+    text-align: center; }
+    #showcase .display-2 {
+      font-size: 2rem;
+      font-weight: bold; }
   #newsletter .form-control,
   #newsletter button {
     margin: 0 0 1rem 0; }
