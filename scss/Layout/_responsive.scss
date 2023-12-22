@@ -8,8 +8,19 @@
 		text-align: center;
 
 		.display-2 {
-			font-size: 2rem;
+			font-size: 2.5rem;
 			font-weight: bold;
+		}
+	}
+
+	#about {
+		.info-header {
+			width: 100%;
+			padding: 0 1rem;
+			h1 {
+				font-weight: bold;
+				font-size: 2rem;
+			}
 		}
 	}
 
@@ -39,6 +50,17 @@
 	#boxes {
 		.card {
 			margin-bottom: 1rem;
+		}
+	}
+
+	#about {
+		.info-header {
+			width: 100%;
+			padding: 0 1rem;
+			h1 {
+				font-weight: bold;
+				font-size: 2.5rem;
+			}
 		}
 	}
 }
