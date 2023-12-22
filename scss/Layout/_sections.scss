@@ -67,3 +67,23 @@
 		}
 	}
 }
+
+#contact {
+	form {
+		i {
+			color: $primary;
+		}
+
+		.input-group-prepend {
+			border: 1px solid $primary;
+			border-radius: 5px;
+		}
+
+		.form-control {
+			border: 2px solid transparent;
+			&:hover {
+				border: 2px solid $primary;
+			}
+		}
+	}
+}
